@@ -1,4 +1,4 @@
-      /* The Modal (background) */
+       /* The Modal (background) */
 /* ================================================================= */
       
       #myBtn{
@@ -122,3 +122,66 @@ line-height: 30px;
   }
 
  
+
+  @media (max-width: 700px) {
+    /* .row, .navbar {   
+      flex-direction: column;
+    } */
+    #myBtn{
+      height: 20px;
+      width: 90px;
+      background-color:#ffffff;
+      border-style: hidden;
+      position: absolute;
+      left: 79.17%;
+      right: 20.97%;
+      top: 5%;
+      bottom: 86.43%;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 30px;
+      color: #000000;
+   border-radius: 6px;
+  }
+
+
+  .slideshow-container {
+    height: 100%;
+    width: 100%;
+    /* left: -2256px;
+    top: -512px; */
+    top:80px;
+    border-radius: 0px;
+      position: relative;
+      margin: auto;
+    }
+
+    #myBtn2{
+      height: 52px;
+      width: 223px;
+    
+  
+      position: absolute;
+      /* left: 50%;
+      right:50%; */
+       border-radius: 6px;
+      bottom: 5.43%;
+      background-color:#FB8C00;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      border-style: hidden;
+      
+      color: #ffffff;
+  
+      left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+  
+    }
+}
