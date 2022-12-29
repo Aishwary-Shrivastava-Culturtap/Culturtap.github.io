@@ -1,6 +1,9 @@
       /* The Modal (background) */
 /* ================================================================= */
-      
+          body{
+      background-color: #ffffff;
+     } 
+
       #myBtn{
         height: 40px;
         width: 200px;
